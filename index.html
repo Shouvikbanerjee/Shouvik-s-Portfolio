@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shouvik's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light  shadow-sm sticky-top n1">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SHOUVIK<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-5" style="background-color: #f9f9f9;">
+    <div class="container">
+        <div class="row align-items-center">
+           <!-- Text Section -->
+            <div class="col-md-6">
+                <h2 class="display-4 fw-bold text-dark">Hello!</h2>
+                <h2 class="text-dark fw-bold ">I'm <span class="text-primary">Shouvik Banerjee,</span></h2>
+                
+                <p class=" lead "style="font-style: italic;">PHP Developer | UI/UX Enthusiast </p>
+                <a href="#home" class="btn btn-primary mt-3" style="background-color: linear_gradiant(black,white);" onclick="window.open('shouvikresume.pdf')">Download Resume</a>
+            </div>
+            <!-- Image Section -->
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="img/pic.webp" class="img-fluid  shadow-lg" width="420" alt="About Image" style="transition: transform 0.3s ease;box-shadow: 0 10px 30px rgba(0, 0, 0, 0.637);">
+            </div>
+
+           
+        </div>
+    </div>
+</section>
+
+  <!-- About Section -->
+<section id="about" class="py-5" style="background-color: #f9f9f9;">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="img/profile.jpg" class="img-fluid  shadow-lg" width="420" alt="About Image" style="transition: transform 0.3s ease;">
+            </div>
+
+            <!-- Text Section -->
+            <div class="col-md-6">
+                <h2 class="display-4 fw-bold text-primary">About Me</h2>
+                <p class="lead text">Hi, I'm Shouvik Banerjee, a Full-Stack Developer passionate about crafting elegant and efficient web applications.
+                I'm a BCA student specialized in Computer Applications. Along with my degree, I had completed <span>HTML, CSS, BOOTSTRUP, PHP, C/C++, SQL </span>programming languages, courses and various technologies. And also learning new languages like <span>React JS, Java, Python </span>etc. I am currently seeking roles where I can utilize my skill.</p>
+                
+                <a href="#about" class="btn btn-primary mt-3" onclick="window.open('shouvikresume.pdf')">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- skill Section -->
+<section id="skill" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">My Skills</h2>
+
+    <!-- Skills Wrapper -->
+    <div class="skills-wrapper d-flex flex-wrap justify-content-center gap-4">
+
+      <!-- Skill Card -->
+      <div class="skill-card text-center p-3">
+        <img src="img/html.jpeg" alt="HTML">
+        
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/css.png" alt="CSS">
+   
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/bootstrup.png" alt="Bootstrap">
+      
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/js.webp" alt="JavaScript">
+ 
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/php.png" alt="PHP">
+  
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/mysql.png" alt="MySQL">
+    
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/java.png" alt="Java">
+   
+      </div>
+
+      <div class="skill-card text-center p-3">
+        <img src="img/react.jpg" alt="React">
+       
+      </div>
+
+    </div>
+  </div>
+</section>
+
+     
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/project1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">FoodExpress</h5>
+              <p class="card-text">It is an online food ordering and delivery platform designed to connect customers 
+with restaurants and delivery partners through a unified digital system. 
+It allows users to browse restaurant and their menus, place orders, 
+make cash payments.</p>
+              <a href="https://github.com/Shouvikbanerjee/FoodExpress" class="btn btn-primary mt-3">Github Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">ServiceHub – One Hub, Endless Services </h5>
+              <p class="card-text">It is a modern user-friendly web platform that aims to transform how people access local services such as electricians, plumbers, technicians, and other household 
+professionals .</p>
+                 <a href="https://github.com/Shouvikbanerjee/ServiceHub" class="btn btn-primary mt-3">Github Repository</a>
+</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/project3.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Restrone</h5>
+              <p class="card-text">A modern responsive landing page built with HTML, CSS, Javascript and Bootstrap.</p>
+              <a href="https://github.com/Shouvikbanerjee/Restrone2.github.io" class="btn btn-primary mt-3">Github Repository</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5" style="background-color: #f9f9f9;">
+  <div class="container" >
+    <h2 class="text-center mb-4" style="font-family: 'Roboto', sans-serif; font-size: 2.2rem;">Get in Touch</h2>
+    <div class="row justify-content-center" >
+      <div class="col-md-8" >
+        <p class="text-center" style="font-size: 1.3rem; color: #555; margin-bottom: 30px;">Let's collaborate and bring your ideas to life!</p>
+        
+        <div class="contact-info text-center" style="background: #f8f8f8; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.637); transition: all 0.3s ease;">
+          <div class="contact-item mb-4">
+        
+            <a href="mailto:banerjeeshouvik29@gmail.com" style="font-size: 1.1rem; color: #333; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+              <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon" style="width: 30px; height: 30px; margin-right: 12px;">
+              <span>banerjeeshouvik29@gmail.com</span>
+            </a>
+          </div>
+
+          <div class="contact-item mb-4">
+      
+            <a href="tel:+919749497770" style="font-size: 1.1rem; color: #333; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+              <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone Icon" style="width: 30px; height: 30px; margin-right: 12px;">
+              <span>+91 97494 97770</span>
+            </a>
+          </div>
+
+          <div class="contact-item">
+           
+            <div class="d-flex justify-content-center">
+              <a href="https://www.linkedin.com" target="_blank" class="social-icon" style="margin-right: 20px;">
+                <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon" style="width: 35px; height: 35px; transition: transform 0.3s ease;">
+              </a>
+              <a href="https://github.com/" target="_blank" class="social-icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Icon" style="width: 35px; height: 35px; transition: transform 0.3s ease;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 All rights reserved , Developed by Shouvik Banerjee.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

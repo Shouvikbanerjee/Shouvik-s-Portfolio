@@ -1,0 +1,168 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* Custom Navbar Style */
+.navbar.n1 {
+  background-color: hwb(0 84% 14%); /* Change this to your desired color */
+ 
+  /* Optional: Add a gradient effect */
+  /* background: linear-gradient(45deg, #4CAF50, #45a049); */
+}
+
+/* Optional: Change the color of navbar links when hovered */
+.navbar.n1 .nav-link {
+  color: #262121; /* White color on hover */
+  font-weight: bold;
+ 
+}
+
+/* Optional: Change the color of the navbar brand */
+.navbar.n1 .navbar-brand {
+  color: #212020; /* White color for the brand name */
+  font-size: 25px;
+}
+
+.navbar.n1 .navbar-brand span{
+    font-size: 35px;
+    color:red;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#home{
+     margin-top: 20px;
+}
+/* Custom Styling for About Section */
+#about {
+   margin-top: 60px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+#about img {
+   border:5px solid rgb(64, 165, 229);
+    box-shadow: 10px 4px 10px rgb(186, 11, 11); /* Add a shadow to the image */
+}
+
+#about img:hover {
+    transform: scale(1.05); /* Image zoom effect on hover */
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+    
+}
+#about h2 span{
+    font-size: 2.5rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+
+}
+#about span{
+    font-size: 1.1rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+    color: #4A90E2; /* Modern blue color */
+}
+#about p {
+    font-size: 1.1rem; /* Slightly larger font for readability */
+    line-height: 1.7; /* Increase line height for better readability */
+    color: #000000; /* Muted text color */
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    #about h2 {
+        font-size: 2rem; /* Adjust title font size for smaller screens */
+    }
+
+    #about img {
+        width: 80%; /* Scale image down for smaller devices */
+    }
+}
+
+
+#skill h2 {
+    font-size: 2.5rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+    color: #4A90E2; /* Modern blue color */
+}
+
+
+
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .skill-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    width: 140px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .skill-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-card:hover img {
+    transform: scale(1.1);
+  }
+
+  .skill-card p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  @media (max-width: 576px) {
+    .skill-card {
+      width: 100px;
+    }
+
+    .skill-card img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .skill-card p {
+      font-size: 0.85rem;
+    }
+  }
+
+
+
+#projects h2 {
+    font-size: 2.5rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+    color: #4A90E2; /* Modern blue color */
+}
+#contact h2 {
+    font-size: 2.5rem; /* Increase font size for the title */
+    font-weight: 700; /* Make the title bold */
+    color: #4A90E2; /* Modern blue color */
+}
+
+footer {
+  font-size: 0.9rem;
+}
