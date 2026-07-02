@@ -611,7 +611,7 @@ function sendMail() {
             document.getElementById("email").value +
             "%0D%0A%0D%0AMessage: " +
             document.getElementById("message").value;
-    window.location.href = "mailto:sayanmajumder1117@gmail.com?subject=" + t + "&body=" + n;
+    window.location.href = "mailto:banerjeeshouvik29@gmail.com?subject=" + t + "&body=" + n;
 }
 document.addEventListener("keydown", (e) => {
     "Escape" === e.key && (closePhotoModal(), closeVideoModal()),
