@@ -1,0 +1,3 @@
+User-agent: * 
+Allow: / 
+Sitemap: https://shouvikbanerjee.github.io/Shouvik-s-Portfolio/sitemap.xml 
