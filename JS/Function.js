@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 image: "./assets/roots/friendstax.png",
 
             },
+            
             {
                 title: "FoodExpress",
                 description: "FoodExpress is an online food ordering and delivery platform.",
