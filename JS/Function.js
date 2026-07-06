@@ -85,15 +85,16 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         c = [
             
-            // {
-            //     title: "Portfolio Website",
-            //     description: "Modern portfolio website with animations",
-            //     tech: ["React", "Tailwind", "GSAP"],
-            //     type: "web",
-            //     liveLink: "#",
-            //     repoLink: "https://github.com/sayanmajumder1/portfolio",
-            //     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            // },
+            {
+                title: "CRM of Friendstax",
+                description: "CRM is both a business strategy and software system designed to help organizations manage, analyze, and improve their interactions with current and potential customers",
+                tech: ["Core PHP", "AdminLTE", "MySQL"],
+                type: "web",
+                liveLink: "https://crm.friendstax.com/login.php",
+                
+                image: "./assets/roots/friendstax.png",
+
+            },
             {
                 title: "FoodExpress",
                 description: "FoodExpress is an online food ordering and delivery platform.",
